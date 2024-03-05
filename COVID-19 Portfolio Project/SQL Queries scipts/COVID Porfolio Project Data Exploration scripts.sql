@@ -1,3 +1,5 @@
+/*Data Source: https://ourworldindata.org/covid-deaths */
+
 Select *
 From CovidDeaths
 Where continent is not null --Continent is NULL means that continent replace in Location, we have to get rid of it.
